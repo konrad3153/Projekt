@@ -6,10 +6,19 @@ class Figura {
         this.kolor = kolor;
     }
 
+    public String getKolor() {
+        return kolor;
+    }
+
+    public void setKolor(String kolor) {
+        this.kolor = kolor;
+    }
+
     public void rysuj() {
         System.out.println("Rysowanie figury w kolorze: " + kolor);
     }
 }
+
 
 // Klasa dziedzicząca po Figura
 class Kolo extends Figura {
